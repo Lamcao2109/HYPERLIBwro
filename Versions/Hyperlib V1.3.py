@@ -16,8 +16,8 @@ hub.system.set_stop_button(Button.BLUETOOTH)
 
 # ---------- Constants ----------
 # PID controller constants for various movements
-GKp = 35          # Proportional gain for heading correction during movement
-GKd = 280         # Derivative gain for heading correction (currently disabled)
+GKp = 20          # Proportional gain for heading correction during movement
+GKd = 250         # Derivative gain for heading correction (currently disabled)
 EncTurnKp = 10    # Gain for encoder-based turning (not used in current code)
 DistanceKp = 5    # Gain for distance control
 SingleTurnKp = 20 # Gain for single motor swing turns

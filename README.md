@@ -1,5 +1,9 @@
 # Hyperlib — LEGO SPIKE Prime Motion Control Library
 
+<p align="center">
+  <img src="Media\Hyperlib_horizontal.png">
+</p>
+
 A MicroPython motion-control library for a differential-drive robot built on the **LEGO SPIKE Prime** hub, using [Pybricks](https://pybricks.com/). Hyperlib provides odometry, PID-based control, and a full suite of movement functions for autonomous navigation.
 
 ---

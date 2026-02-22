@@ -14,7 +14,7 @@ Odometry is not magic; it cannot pinpoint exactly where your robot tracks every 
 
 These functions can NEVER make the robot arrive at the desired position/heading with 100% accuracy. The idea behind these functions is that the robot keeps steering to its target to MINIMIZE the error between the robot's and the desired position/heading, not completely EFFACING it. Thus, if you want the robot to be 100% on the target, it will run forever and can never complete this task. Instead, as the robot approaches an acceptable margin of error, it will stop. But don't worry! Since odometry tracking is always on, the robot will ALWAYS be able to approximate where it is and where it isn't. 
 
-##IMPORTANT
+## IMPORTANT
 
 WE ENCOURAGE YOU TO ADD FUNCTIONS OF YOUR OWN TO THE PROGRAM! Many functions may be essential to you that we have not built yet! So, don't hesitate to study the method and programming style used to build these functions to construct your own!
 

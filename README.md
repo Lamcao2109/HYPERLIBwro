@@ -1,6 +1,14 @@
 # Hyperlib — LEGO SPIKE Prime Motion Control Library
 
-A MicroPython motion control library for a differential drive robot built on the **LEGO SPIKE Prime** hub using [Pybricks](https://pybricks.com/). Hyperlib provides odometry, PID-based control, and a full suite of movement functions for autonomous navigation.
+A MicroPython motion-control library for a differential-drive robot built on the **LEGO SPIKE Prime** hub, using [Pybricks](https://pybricks.com/). Hyperlib provides odometry, PID-based control, and a full suite of movement functions for autonomous navigation.
+
+---
+
+## The overall idea
+
+Odometry is not magic; it cannot pinpoint exactly where your robot tracks every single minute movement of both wheels. It is just an approximation, and the error keeps increasing as the robot travels. Therefore, odometry in the World Robot Olympiad program is just a method to cut corners, to travel to approximate positions. If you want exact positions, you must plan waypoints (walls, black line to follow, colors on the map,...) which the robot can track using other kinds of sensors
+
+These functions can NEVER make the robot arrive at the desired position/heading with 100% accuracy. The idea behind these functions is that the robot keeps steering to its target to MINIMIZE the error between the robot's and the desired position/heading, not completely EFFACING it. Thus, if you want the robot to be 100% on the target, it will run forever and can never complete this task. Instead, as the robot approaches an acceptable margin of error, it will stop. But don't worry! Since odometry tracking is always on, the robot will ALWAYS be able to approximate where it is and where it isn't. 
 
 ---
 
@@ -148,7 +156,7 @@ Drives to a coordinate while controlling the **final approach angle** (Position 
 ### Utility
 
 #### [`Stop()`](https://github.com/Lamcao2109/HYPERLIBwro/blob/main/Versions/Hyperlib_V1_5/Hyperlib_v1_5.py#L886)
-Brakes both motors for 40 ms, then holds them in place.
+Brake both motors for 40 ms, then hold them in place.
 
 #### [`DegToMM(deg)`](https://github.com/Lamcao2109/HYPERLIBwro/blob/main/Versions/Hyperlib_V1_5/Hyperlib_v1_5.py#L53)
 Converts motor encoder degrees to millimeters of travel using the configured wheel diameter.

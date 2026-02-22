@@ -32,7 +32,7 @@ WheelD = 62        # Wheel diameter in mm
 Axle = 170         # Axle length (distance between wheels) in mm
 
 # --------- Motor Control ---------
-LoopTime = 12      # Control loop time in milliseconds (update frequency)
+LoopTime = 10      # Control loop time in milliseconds (update frequency)
 MaxAcc = 30000    # Maximum acceleration in degrees per second squared
 MinSpeed = 200     # Minimum motor speed in degrees per second
 MaxSpeed = 1350    # Maximum motor speed in degrees per second

@@ -1,5 +1,6 @@
 # HYPERLIB
 A library for pybrick use in the World Robot Olympiad 
+newest version: V1.5
 ---
 
 ## Requirements
@@ -12,26 +13,26 @@ A library for pybrick use in the World Robot Olympiad
 
 ## Robot Configuration
 
-| Parameter   | Value | Description                          |
+| Parameter   | unit | Description                          |
 |-------------|-------|--------------------------------------|
-| `WheelD`    | 62 mm | Wheel diameter                       |
-| `Axle`      | 170 mm| Distance between wheels              |
-| `LoopTime`  | 12 ms | Control loop update frequency        |
-| `MaxSpeed`  | 1350 °/s | Maximum motor speed              |
-| `MinSpeed`  | 200 °/s  | Minimum motor speed              |
-| `MaxAcc`    | 30000 °/s²| Maximum acceleration            |
+| `WheelD`    | mm | Wheel diameter                       |
+| `Axle`      | mm | Distance between wheels              |
+| `LoopTime`  | ms | Control loop update frequency        |
+| `MaxSpeed`  | °/s | Maximum motor speed              |
+| `MinSpeed`  | °/s  | Minimum motor speed              |
+| `MaxAcc`    | °/s²| Maximum acceleration            |
 
 ---
 
 ## PID Gains
 
-| Constant        | Value | Purpose                                      |
-|-----------------|-------|----------------------------------------------|
-| `GKp`           | 20    | Proportional gain for heading correction     |
-| `GKd`           | 250   | Derivative gain for heading correction       |
-| `DistanceKp`    | 5     | Proportional gain for distance-based speed   |
-| `SingleTurnKp`  | 20    | Gain for single-motor swing turns            |
-| `DoubleTurnKp`  | 7     | Gain for two-motor turns                     |
+| Constant        | Purpose                                      |
+|-----------------|----------------------------------------------|
+| `GKp`           | Proportional gain for heading correction     |
+| `GKd`           | Derivative gain for heading correction       |
+| `DistanceKp`    | Proportional gain for distance-based speed   |
+| `SingleTurnKp`  | Gain for single-motor swing turns            |
+| `DoubleTurnKp`  | Gain for two-motor turns                     |
 
 ---
 

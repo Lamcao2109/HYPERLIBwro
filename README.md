@@ -181,3 +181,9 @@ Returns the signed heading error in degrees (range −180° to 180°) between th
 | v1.5 | [`Hyperlib_v1_5.py`](https://github.com/Lamcao2109/HYPERLIBwro/blob/main/Versions/Hyperlib_V1_5/Hyperlib_v1_5.py) | Added arc odometry, encoder-based turns (`TurnMM`, `SwingMM`), improved PID gains |
 | v1.4 | [`Hyperlib_V1_4/`](https://github.com/Lamcao2109/HYPERLIBwro/blob/main/Versions/Hyperlib_V1_4/) | Previous stable version |
 | v1.3 | [`Hyperlib V1.3.py`](https://github.com/Lamcao2109/HYPERLIBwro/blob/main/Hyperlib%20V1.3.py) | Initial release |
+
+---
+
+## :handshake: Contributor
+:bust_in_silhouette:author: @Lamcao2109
+:busts_in_silhouette:contributors: @DuCpHancm

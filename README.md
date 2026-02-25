@@ -203,7 +203,7 @@ Returns the signed heading error in degrees (range −180° to 180°) between th
 ## Our partners 🤗
 Mr. Phong and his colleagues have been working with us since day one of robotics, and I want to dedicate a section of this library to honor their contributions to building our knowledge and curiosity, which have allowed us to build this library.
 <p align="center">
-  <img src="Media\Hyperlib_horizontal.png">
+  <img src="Media\TPS.png">
 </p>
 
 ---

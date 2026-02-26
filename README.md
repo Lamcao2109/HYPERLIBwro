@@ -207,8 +207,8 @@ Odometry is a method to estimate the robot's position. There are two main odomet
 Here is the mathematical proof of it, you can try to look for symmetries in these graph and the code to better understand odometry:
 
 <p align="center">
-  <img src="Media\Arc Odometry Proof.png" width="400">
-  <img src="Media\Linear Odometry Proof.png" width="400">
+  <img src="Media\Arc Odometry Proof.png" width="500">
+  <img src="Media\Linear Odometry Proof.png" width="500">
 </p>
 
 ---

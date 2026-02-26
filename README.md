@@ -16,7 +16,7 @@ These functions can NEVER make the robot arrive at the desired position/heading 
 
 ## IMPORTANT
 
-WE ENCOURAGE YOU TO ADD FUNCTIONS OF YOUR OWN TO THE PROGRAM! Many functions may be essential to you that we have not built yet! So, don't hesitate to study the method and programming style used to build these functions to construct your own!
+WE ENCOURAGE YOU TO ADD FUNCTIONS OF YOUR OWN TO THE PROGRAM! Many functions may be essential to you that we have not built yet! So, don't hesitate to study the method and programming style used to build these functions to construct your own! Also, you must firmly understand the MATHEMATICAL PROOF and LOGIC under the algorithms and functions to build your own programmes. Contact the author (Lam) if you have any question to ask!
 
 ---
 
@@ -200,7 +200,21 @@ Returns the signed heading error in degrees (range −180° to 180°) between th
 
 ---
 
+## 📏 Odometry and its mathematical proof
+
+Odometry is a method to estimate the robot's position. There are two main odometry methods: linear odometry and arc odometry. During straight movements, linear odometry is best suited for use, whereas during curved moment, arc odometry is the optimal method
+
+Here is the mathematical proof of it, you can try to look for symmetries in these graph and the code to better understand odometry:
+
+<p align="center">
+  <img src="Media\Arc Odometry Proof.png" width="400">
+  <img src="Media\Linear Odometry Proof.png" width="400">
+</p>
+
+---
+
 ## Our partners 🤗
+
 Mr. Phong and his colleagues have been working with us since day one of robotics, and I want to dedicate a section of this library to honor their contributions to building our knowledge and curiosity, which have allowed us to build this library.
 <p align="center">
   <img src="Media\TPS.png">
@@ -208,6 +222,6 @@ Mr. Phong and his colleagues have been working with us since day one of robotics
 
 ---
 
-## :handshake: Contributor
+## :handshake: Contributors
 :bust_in_silhouette:author: @Lamcao2109
 :busts_in_silhouette:contributors: @DuCpHancm

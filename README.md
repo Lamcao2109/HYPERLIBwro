@@ -25,8 +25,9 @@ WE ENCOURAGE YOU TO ADD FUNCTIONS OF YOUR OWN TO THE PROGRAM! Many functions may
 ```
 ├── Versions/
 │   ├── Hyperlib_V1_4/
-│   └── Hyperlib_V1_5/
-│       ├── Hyperlib_v1_5.py   ← Main library
+│   ├── Hyperlib_V1_5/
+│   └── Hyperlib_V1_6/
+│       ├── Hyperlib_v1_6.py   ← Main library
 │       └── main_program.py    ← Your program goes here
 ├── Hyperlib V1.3.py
 └── README.md

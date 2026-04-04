@@ -298,6 +298,18 @@ Here is the mathematical proof of it, you can try to look for symmetries in thes
 
 ---
 
+## 📐 Pure Pursuit and its mathematical proof
+
+Pure Pursuit is a path-tracking algorithm. Instead of driving directly toward each waypoint and stopping, the robot steers toward a **lookahead point** — a point on the path a fixed lookahead distance `L` ahead of the robot. This produces smooth, continuous curves through the entire path.
+
+Here is the mathematical proof of it, you can try to look for symmetries in this graph and the code to better understand Pure Pursuit:
+
+<p align="center">
+  <img src="Media\Pure Pursuit Proof.png" width="1000">
+</p>
+
+---
+
 ## Our partners 🤗
 
 Mr. Phong and his colleagues have been working with us since day one of robotics, and I want to dedicate a section of this library to honor their contributions to building our knowledge and curiosity, which have allowed us to build this library.

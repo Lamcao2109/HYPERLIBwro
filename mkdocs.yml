@@ -1,0 +1,55 @@
+site_name: HYPERLIBwro
+site_description: A MicroPython motion-control library for LEGO SPIKE Prime in the World Robot Olympiad
+site_author: Lamcao2109
+site_url: https://hyperlibwro.readthedocs.io/
+
+repo_name: Lamcao2109/HYPERLIBwro
+repo_url: https://github.com/Lamcao2109/HYPERLIBwro
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Quick Start: quickstart.md
+  - Concepts:
+      - Odometry: concepts/odometry.md
+      - Pure Pursuit: concepts/pure-pursuit.md
+  - API Reference:
+      - Odometry: api/odometry.md
+      - Straight Movement: api/straight-movement.md
+      - Turning: api/turning.md
+      - Swing Turns: api/swing-turns.md
+      - Coordinate Movement: api/coordinate-movement.md
+      - Utility: api/utility.md
+  - Configuration: configuration.md
+  - Version History: changelog.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - tables
+  - attr_list
+  - def_list

@@ -321,4 +321,4 @@ Mr. Phong and his colleagues have been working with us since day one of robotics
 
 ## :handshake: Contributors
 :bust_in_silhouette:author: @Lamcao2109
-:busts_in_silhouette:contributors: @DuCpHancm
+:busts_in_silhouette:contributors: @DuCpHancm, @haing2811

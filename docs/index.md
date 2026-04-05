@@ -37,7 +37,7 @@ Head to the [Quick Start](quickstart.md) guide to set up Hyperlib on your robot.
 ## Contributors
 
 - 👤 Author: [@Lamcao2109](https://github.com/Lamcao2109)
-- 👥 Contributors: [@DuCpHancm](https://github.com/DuCpHancm)
+- 👥 Contributors: [@DuCpHancm](https://github.com/DuCpHancm), [@haing2811](https://github.com/haing2811/Concainit123)
 
 ## License
 

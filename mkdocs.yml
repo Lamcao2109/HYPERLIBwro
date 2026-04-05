@@ -9,15 +9,15 @@ repo_url: https://github.com/Lamcao2109/HYPERLIBwro
 theme:
   name: material
   palette:
-    - scheme: default
+    - scheme: slate
       primary: blue
-      accent: amber
+      accent: deep blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    - scheme: slate
+    - scheme: default
       primary: blue
-      accent: amber
+      accent: deep blue
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
